@@ -47,6 +47,6 @@ Train an XGBoost classifier on the extracted features. Refer to the code for det
 Evaluate trained models on the test set using metrics like accuracy, confusion matrix, and classification report. The code provides functions for generating these evaluation results.
 ### 3.5 Prediction
 For predicting skin conditions on new images, refer to the code snippet provided in the "Prediction" section of the original response.
-##Conclusion
+## Conclusion
 This project demonstrates the use of EfficientNet and SVM/XGBoost for skin lesion classification. Following these steps would allow for users to utilize the models and reproduce the results and gain insights into the process. Ensure to replace placeholders with actual values.
 
