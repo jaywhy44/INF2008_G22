@@ -6,7 +6,9 @@ This document outlines the process of classifying skin lesions using deep learni
 ### 1.1. Google Colab
 This project is designed to run on Google Colab, a cloud-based platform offering free GPU access, which accelerates the training process.
 ### 1.2. Libraries
-If runned locally, the following libraries are crucial for the project's execution. To run natively on Windows, there is support for Tensorflow only up to version 2.10.0 and the user needs python 3.9-3.10. Do note that to utilise GPU, the user has to install NVIDIA CUDA Toolkit 11.2 and cuDNN 8.1
+If runned locally, the following libraries are crucial for the project's execution. To run natively on Windows, there is support for Tensorflow only up to version 2.10.0 and the user needs python 3.9-3.10. Do note that to utilise GPU, the user has to install NVIDIA CUDA Toolkit 11.2 and cuDNN 8.1.
+https://developer.nvidia.com/cuda-11.2.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+https://developer.nvidia.com/rdp/cudnn-archive
 Ensure they are installed in your environment using pip:
 
 !pip install -r requirements.txt
