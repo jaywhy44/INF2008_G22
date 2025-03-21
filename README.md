@@ -111,8 +111,9 @@ Create paths for images and masks:
 ## 2.3. Feature Extraction
 ### Extracting Deep Features From Images
 Load EfficientNetB0 for feature extraction (trained model should be used if available)
-    efficientnet_base = EfficientNetB0(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
-    feature_extractor = Model(inputs=efficientnet_base.input, outputs=efficientnet_base.layers[-5].output)
+        
+        efficientnet_base = EfficientNetB0(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
+        feature_extractor = Model(inputs=efficientnet_base.input, outputs=efficientnet_base.layers[-5].output)
 
 
 ### Preprocessing images
