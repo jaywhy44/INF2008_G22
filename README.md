@@ -8,17 +8,7 @@ This project is designed to run on Google Colab, a cloud-based platform offering
 ### 1.2. Libraries
 If runned locally, the following libraries are crucial for the project's execution. Ensure they are installed in your environment using pip:
 
-!pip install opencv-python==4.7.0.72
-
-!pip install tensorflow==2.12.0
-
-!pip install scikit-learn==1.2.2
-
-!pip install seaborn==0.12.2
-
-!pip install pandas==1.5.3
-
-!pip install xgboost==1.7.6
+!pip install -r requirements.txt
 
 
 ### 1.3. Dataset
