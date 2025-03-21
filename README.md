@@ -23,6 +23,7 @@ If runned locally, the following libraries are crucial for the project's executi
 
 ### 1.3. Dataset
 Download the HAM10000 dataset.
+https://www.kaggle.com/datasets/nightfury007/ham10000-isic2018-raw/data
 Organize the dataset into three folders within a folder named dataverse_files in your Google Drive. These folders should contain:
 HAM10000_images_combined_600x450: Lesion images.
 HAM10000_segmentations_lesion: Lesion segmentation masks.
